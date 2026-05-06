@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects</title>
+
+  <style>
+    body {
+      font-family: Arial;
+    }
+
+    .projects {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 220px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+    }
+
+    .card-content {
+      padding: 10px;
+    }
+
+    .card h3 {
+      margin: 5px 0;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: gray;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      background: #333;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 13px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      transition: 0.3s;
+    }
+  </style>
+</head>
+<body>
+
+<h2>My Projects</h2>
+
+<div class="projects">
+
+  <div class="card">
+    <img src="https://via.placeholder.com/220x140">
+    <div class="card-content">
+      <h3>Sample title</h3>
+      <p>Sample description</p>
+      <a href="#">Link here</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/220x140">
+    <div class="card-content">
+      <h3>Sample title</h3>
+      <p>Sample description</p>
+      <a href="#">Link here</a>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
